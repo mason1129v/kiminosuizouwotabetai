@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: '新細明體';
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    animation:fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-button{
+    background: transparent;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track-piece{
+    background: rgb(155, 152, 152);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: lightgray;
+}
+.navbar .nav-link.active{
+    color: white;
+}

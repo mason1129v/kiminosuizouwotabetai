@@ -1,0 +1,84 @@
+.bg_c1{
+    background-color: #c3baa8;
+}
+.bg_c2{
+    background-color: #d9cec1;
+}
+.bg_c3{
+    background-color: #cdcdcd;
+}
+.bg_c4{
+    background-color: #53423b;
+}
+.bg_c5{
+    background-color: #d9b5ad;
+}
+.bg_kuro{
+    background-color: black;
+}
+.bg_shiro{
+    background-color: white;
+}
+.f_kuro{
+    color: black;
+}
+.f_shiro{
+    color: white;
+}
+.f_c1{
+    color: #c3baa8;
+}
+.f_c2{
+    color: #d9cec1;
+}
+.f_c3{
+    color: #cdcdcd;
+}
+.f_c4{
+    color: #53423b;
+}
+.f_c5{
+    color: #d9b5ad;
+}
+.bgo_c1{
+    background-color: rgba(195,186,168,0.7);
+}
+.bgo_c2{
+    background-color: rgba(217,206,193,0.7);
+}
+.bgo_c3{
+    background-color: rgba(205,205,205,0.7);
+}
+.bgo_c4{
+    background-color: rgba(83,66,59,0.7);
+}
+.bgo_c5{
+    background-color: rgba(217,181,173,0.7);
+}
+.bgo_kuro{
+    background-color: rgba(0,0,0,0.6);
+}
+.bgo_shiro{
+    background-color: rgba(255,255,255,0.8);
+}
+.sh_c1{
+    box-shadow: 0 0 10px #c3baa8;
+}
+.sh_c2{
+    box-shadow: 0 0 10px #d9cec1;
+}
+.sh_c3{
+    box-shadow: 0 0 10px #cdcdcd;
+}
+.sh_c4{
+    box-shadow: 0 0 10px #53423b;
+}
+.sh_c5{
+    box-shadow: 0 0 10px #d9b5ad;
+}
+.sh_kuro{
+    box-shadow: 0 0 10px black;
+}
+.sh_shiro{
+    box-shadow: 0 0 10px white;
+}
