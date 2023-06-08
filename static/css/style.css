@@ -52,17 +52,14 @@ main{
 }
 .cover_img_wrap{
     margin-left: 50px;
-    width: 200px;
-    height: 286px;
+    width: 18%;
     float: left;
 }
 .cover_img{
-    width: 200px;
-    height: 286px;
+    width: 100%;
 }
 .info_detail{
     width: 60%;
-    height: 286px;
     margin-left:8%;
     float: left;
 }
@@ -86,7 +83,7 @@ main{
 }
 .about_cnt{
     width: 75%;
-    height: 900px;
+    min-height: 900px;
     margin:30px auto;
     border-radius: 10px;
     padding:3%;
@@ -149,7 +146,7 @@ main{
 }
 .intro_cnt{
     width: 75%;
-    height: 500px;
+    min-height: 500px;
     margin:30px auto;
     border-radius: 10px;
     padding:3%;
@@ -157,4 +154,23 @@ main{
 }
 .intro_cnt:hover{
     background-color: #53423b;
+}
+.eat_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3%;
+    transition: 1s;
+}
+.eat_cnt:hover{
+    background-color: #d9cec1;
+}
+.eat_img_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.eat_img_wrap>img{
+    border: none;
+    border-radius: 10px;
 }
