@@ -18,8 +18,14 @@
 </head>
 
 <body>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/himitsu.mp3"></audio>
+    <div>
+        <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
+            <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg_c1 fixed-top" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
             <div class="container-fluid" style="width: 95%;">
                 <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -70,14 +76,17 @@
     </header>
     <main>
         <div class="intro_cnt bgo_c4 sh_c4">
-            <p class="h1 f_shiro">故事簡介</p>
+            <p class="h1 fw-bold f_shiro">故事簡介</p>
             <p class="h5 txt f_shiro">&emsp;&emsp;「沒有名字的我」和「沒有未來的她」是書腰的標語，很完整的濃縮了整本書的精華。
-                <br>&emsp;&emsp;《我想吃掉你的胰臟》講述了一位在班級上沒有存在感的男主角，在偶然撿到患有胰臟疾病的女主角所寫的日記《共病文庫》後，原本沒有交集的兩人生命自此產生了變化。
+                <br>&emsp;&emsp;《我想吃掉你的胰臟》講述了一位在班級上沒有存在感的男主角(志賀春樹)，在偶然撿到患有胰臟疾病的女主角(山內櫻良)所寫的日記《共病文庫》後，原本沒有交集的兩人生命自此產生了變化。
                 <br>&emsp;&emsp;男主角一直視與人保持距離為理所當然，他認為就算只有自己一能也能活得很好，沒有必要和其他人打交道，在班上當然也就是所謂的邊緣人。
                 而女主角正巧與男主角完全相反，是班上的風雲人物，個性開朗大方，即使知道自己能活的時間不多了，也決定用正面積極的態度過好每一天。
                 <br>&emsp;&emsp;在男主角成為除了女主角家人外唯一知道女主角患病秘密的人後，兩人……應該說男主角就整天被女主角拉著走，幫女主角完成她臨死前的所有願望，而男主角也在這個過程中漸漸的被改變了。
                 <br>&emsp;&emsp;《我想吃掉你的胰臟》的男女主角擁有相當特殊的感情，那種感覺超越了友情或是愛情，故事的走向也令人意想不到，真的很推薦大家閱讀。
             </p>
+            <div class="intro_img_wrap">
+                <img src="static/img/intro.png" class="sh_shiro">
+            </div>
         </div>
         <div class="wrap_btn">
             <a href="about.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1"><i
@@ -88,5 +97,5 @@
     </main>
 </body>
 <script src="static/js/changeword.js"></script>
-
+<script src="static/js/music_ctrl.js"></script>
 </html>

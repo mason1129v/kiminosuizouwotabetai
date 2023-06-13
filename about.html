@@ -18,15 +18,14 @@
 </head>
 
 <body>
-    <audio id="music" autoplay="" controls="" loop="loop" preload="auto" src="static/music/neko.mp3"></audio>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/neko.mp3"></audio>
     <div>
         <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
             <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
         </button>
     </div>
-    </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg_c1 fixed-top" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
             <div class="container-fluid" style="width: 95%;">
                 <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -77,32 +76,35 @@
     </header>
     <main>
         <div class="about_cnt bgo_c1 sh_c1">
-            <div class="about_word">
-                <p class="h1">我和這本書的緣份</p>
-                <p class="h5 txt">
-                    &emsp;&emsp;在很早之前，就早已聽聞過《我想吃掉你的胰臟》這本書，或許和許多人相同，因為聳動的書名，而以為是血醒、恐怖、獵奇的故事，對此類題材毫無興趣的我當然也就沒有閱讀的後續動作，現在想起來還真的如英文成語
-                    “Don't judge a book by its cover（不要從書的封面來評斷一本書，也就是不要以貌取人之意）”所說的一樣。
-                    <br>&emsp;&emsp;一直到大一的下學期（2021年），日本Sony Music旗下的YouTube頻道 “THE FIRST TAKE”
-                    上傳了由樂團DISH//主唱北村匠海所演唱的「猫」一曲，才聽了一次就讓我深陷其中，不論是歌詞還是北村的唱腔都讓能讓人感受到濃厚的情感，而在不到兩個月後，以介紹日本流行音樂為主的頻道Kazbom做了「猫」這首歌背後故事的介紹，簡單來說，北村在出演《我想吃掉你的胰臟》真人電影版後，邀請了他及其團員崇拜的歌手Aimyon來參加電映的首映會，而Aimyon在看了電影後，就寫了這首「猫」送給DISH//，看過《我想吃掉你的胰臟》的人就能感受到，從「猫」這首歌的歌詞可以看出滿滿故事男主角的心裡話。
-                    <br>&emsp;&emsp;就這樣，我對《我想吃掉你的胰臟》有了興趣，馬上找了電影來看，印象中當時的我在電影後段默默的掉淚了，也在不久後就買下了原著小說來看。
-                    這就是從「猫」牽起我和《我想吃掉你的胰臟》緣份的過程。
-                </p>
-            </div>
-            <div class="about_video">
-                <div class="sg_img_wrap"><img src="static/img/aimyon.jpg"><br>
-                    <p class="text-center h5">Aimyon</p>
+            <div class="wordnimg">
+                <div class="about_word">
+                    <p class="h1 fw-bold">我和這本書的緣份</p>
+                    <p class="h5 txt">
+                        &emsp;&emsp;在很早之前，就早已聽聞過《我想吃掉你的胰臟》這本書，或許和許多人相同，因為聳動的書名，而以為是血醒、恐怖、獵奇的故事，對此類題材毫無興趣的我當然也就沒有閱讀的後續動作，現在想起來還真的如英文成語
+                        “Don't judge a book by its cover（不要從書的封面來評斷一本書，也就是不要以貌取人之意）”所說的一樣。
+                        <br>&emsp;&emsp;一直到大一的下學期（2021年），日本Sony Music旗下的YouTube頻道 “THE FIRST TAKE”
+                        上傳了由樂團DISH//主唱北村匠海所演唱的「猫」一曲，才聽了一次就讓我深陷其中，不論是歌詞還是北村的唱腔都讓能讓人感受到濃厚的情感，而在不到兩個月後，以介紹日本流行音樂為主的頻道Kazbom做了「猫」這首歌背後故事的介紹，簡單來說，北村在出演《我想吃掉你的胰臟》真人電影版後，邀請了他及其團員崇拜的歌手Aimyon來參加電映的首映會，而Aimyon在看了電影後，就寫了這首「猫」送給DISH//，看過《我想吃掉你的胰臟》的人就能感受到，從「猫」這首歌的歌詞可以看出滿滿故事男主角的心裡話。
+                        <br>&emsp;&emsp;就這樣，我對《我想吃掉你的胰臟》有了興趣，馬上找了電影來看，印象中當時的我在電影後段默默的掉淚了，也在不久後就買下了原著小說來看。
+                        這就是從「猫」牽起我和《我想吃掉你的胰臟》緣份的過程。
+                    </p>
                 </div>
-                <div class="sg_img_wrap"><img src="static/img/dish.jpg"><br>
-                    <p class="text-center h5">DISH//</p>
-                </div>
-                <div class="about_v_wrap">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/gsT6eKsnT0M"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe><br>
+                <div class="about_video">
+                    <div class="sg_img_wrap"><img src="static/img/aimyon.jpg"><br>
+                        <p class="text-center h5">Aimyon</p>
+                    </div>
+                    <div class="sg_img_wrap"><img src="static/img/dish.jpg"><br>
+                        <p class="text-center h5">DISH//</p>
+                    </div>
+                    <div class="about_v_wrap">
+                        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/gsT6eKsnT0M"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe><br>
                         <p class="text-center h5">DISH//(北村匠海) -猫/THE FIRST TAKE</p>
+                    </div>
                 </div>
             </div>
+            
         </div>
         <div class="wrap_btn">
             <a href="index.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1"><i

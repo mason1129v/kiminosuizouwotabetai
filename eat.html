@@ -18,8 +18,14 @@
 </head>
 
 <body>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/kyoubyoubunko.mp3"></audio>
+    <div>
+        <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
+            <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg_c1 fixed-top" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
             <div class="container-fluid" style="width: 95%;">
                 <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -70,7 +76,7 @@
     </header>
     <main>
         <div class="eat_cnt bgo_c2 sh_c2">
-            <p class="h1 f_kuro">關於吃掉胰臟這件事</p>
+            <p class="h1 fw-bold f_kuro">關於吃掉胰臟這件事</p>
             <p class="h5 txt f_kuro">這麼特殊的書名，想必有背後的一番原因，在網路上的討論主要有兩個解釋：
                 <br>一、從女主角的角度來看，傳統飲食文化中有「以形補形、同物同治」的說法，比如手受傷就會吃豬蹄，胃痛可以吃豬肚……等食療方法。即吃了和患病部位相同的身體部位就能治好病。
                 <br>二、而從男主角的角度看，在女主角死后，吃了她的臟器，她的靈魂就能在男主角身上繼續生存，成為她，她也就不會從男主角的世界中消失。
@@ -88,5 +94,5 @@
     </main>
 </body>
 <script src="static/js/changeword.js"></script>
-
+<script src="static/js/music_ctrl.js"></script>
 </html>

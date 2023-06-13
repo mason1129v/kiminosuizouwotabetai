@@ -18,8 +18,14 @@
 </head>
 
 <body>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/fanfare.mp3"></audio>
+    <div>
+        <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
+            <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg_c1 fixed-top" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
             <div class="container-fluid" style="width: 95%;">
                 <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -69,7 +75,10 @@
         </nav>
     </header>
     <main>
-
+        <div class="dif_cnt bgo_c4">
+            <p class="h1 fw-bold f_shiro">其他人們的看法</p>
+            <p class="h5 txt f_shiro"></p>
+        </div>
         <div class="wrap_btn">
             <a href="other.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1"><i
                         class="fa-solid fa-arrow-left"></i>&ensp;回前一頁</button></a>
@@ -79,5 +88,5 @@
     </main>
 </body>
 <script src="static/js/changeword.js"></script>
-
+<script src="static/js/music_ctrl.js"></script>
 </html>

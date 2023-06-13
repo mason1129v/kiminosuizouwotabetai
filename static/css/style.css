@@ -12,7 +12,7 @@ main{
     text-shadow: 0 5px 5px black;
     transition: 1s;
 }
-.topic:hover{
+.topic:hover,.comp_cnt:hover,.ref_cnt:hover{
     background-color: #d9b5ad;
 }
 .topic_t{
@@ -47,7 +47,7 @@ main{
     transition: 1s;
     text-shadow: 0 5px 5px white;
 }
-.info:hover{
+.info:hover,.exp_cnt:hover{
     background-color: #cdcdcd;
 }
 .cover_img_wrap{
@@ -81,15 +81,20 @@ main{
     background-color: #c3baa8;
     box-shadow: 0 0 20px #c3baa8;
 }
+.wordnimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .about_cnt{
     width: 75%;
     min-height: 900px;
     margin:30px auto;
     border-radius: 10px;
-    padding:3%;
+    padding:3% 5%;
     transition: 1s;
 }
-.about_cnt:hover{
+.about_cnt:hover,.other_cnt:hover{
     background-color: #c3baa8;
 }
 .about_word{
@@ -149,17 +154,17 @@ main{
     min-height: 500px;
     margin:30px auto;
     border-radius: 10px;
-    padding:3%;
+    padding:3% 5%;
     transition: 1s;
 }
-.intro_cnt:hover{
+.intro_cnt:hover,.dif_cnt:hover{
     background-color: #53423b;
 }
 .eat_cnt{
     width: 75%;
     margin:30px auto;
     border-radius: 10px;
-    padding:3%;
+    padding:3% 5%;
     transition: 1s;
 }
 .eat_cnt:hover{
@@ -169,8 +174,79 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .eat_img_wrap>img{
+    border: none;
+    border-radius: 10px;
+}
+.comp_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3% 5%;
+    transition: 1s;
+}
+.comp_tb{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #53423b, inset 0 0 10px #53423b;
+}
+th{
+    width: 33%;
+}
+th,td{
+    text-align: center;
+    border:none;
+    box-shadow: 0 0 3px #53423b, inset 0 0 3px #53423b;
+    padding: 8px;
+}
+.tb_wrap_img{
+    margin:5px auto;
+    width: 80%;
+}
+.tb_wrap_img>img{
+    position: relative;
+    width: 100%;
+}
+.exp_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3% 5%;
+    transition: 1s;
+}
+.other_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3% 5%;
+    transition: 1s;
+}
+.dif_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3% 5%;
+    transition: 1s;
+}
+.ref_cnt{
+    width: 75%;
+    margin:30px auto;
+    border-radius: 10px;
+    padding:3% 5%;
+    transition: 1s;
+}
+.intro_img_wrap{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.intro_img_wrap>img{
+    position:relative;
+    width: 100%;
     border: none;
     border-radius: 10px;
 }

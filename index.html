@@ -16,8 +16,14 @@
     <title>首頁</title>
 </head>
 <body>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/trailer.mp3"></audio>
+    <div>
+        <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
+            <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg_c1 fixed-top" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
             <div class="container-fluid" style="width: 95%;">
                 <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -69,7 +75,7 @@
     <main>
         <div class="topic bgo_c5 sh_c5">
             <span class="topic_t">
-                <p class="t_main f_shiro display-5" style="margin-bottom: 20px;">我想吃掉你的胰臟</p>
+                <p class="t_main f_shiro display-5 fw-bold" style="margin-bottom: 20px;">我想吃掉你的胰臟</p>
                 <p class="t_main f_shiro display-6">&ensp;君の膵臓をたべたい</p>
                 <p class="t_main f_shiro h4" style="margin-top:20px;">&emsp;&emsp;&emsp;住野 夜&emsp;すみの　よる</p>
             </span>
@@ -81,16 +87,19 @@
             </span>
         </div>
         <div class="info bgo_c3 sh_c3">
-            <div class="cover_img_wrap sh_shiro">
-                <img class="cover_img"  src="static/img/cover.jpg">
+            <div class="wordnimg">
+                <div class="cover_img_wrap ">
+                    <img class="cover_img sh_shiro" src="static/img/cover.jpg">
+                </div>
+                <div class="info_detail">
+                    <p class="h2 fw-bold" style="margin-bottom: 50px;">書本資訊(日文原著/台灣中文譯本)</p>
+                    <p class="h4">書名：君の膵臓をたべたい/我想吃掉你的胰臟</p>
+                    <p class="h4">作者：住野夜/丁世佳(譯)</p>
+                    <p class="h4">出版社：双葉社/悅知文化</p>
+                    <p class="h4">出版日期：2015年6月19日/2016年8月29日</p>
+                </div>
             </div>
-            <div class="info_detail">
-                <p class="h2" style="margin-bottom: 50px;">書本資訊(日文原著/台灣中文譯本)</p>
-                <p class="h4">書名：君の膵臓をたべたい/我想吃掉你的胰臟</p>
-                <p class="h4">作者：住野夜/丁世佳(譯)</p>
-                <p class="h4">出版社：双葉社/悅知文化</p>
-                <p class="h4">出版日期：2015年6月19日/2016年8月29日</p>
-            </div>
+            
         </div>
         <div class="wrap_btn">
             <a href="about.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1">繼續閱讀&ensp;<i
@@ -98,5 +107,6 @@
     </main>
 </body>
 <script src="static/js/changeword.js"></script>
+<script src="static/js/music_ctrl.js"></script>
 <script src="static/js/loadmodal.js"></script>
 </html>
