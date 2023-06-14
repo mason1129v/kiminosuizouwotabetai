@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: '新細明體';
+    font-family: PMingLiU;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: multiply;
     background-image: url("../img/bg.jpg");

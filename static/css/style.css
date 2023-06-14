@@ -171,12 +171,14 @@ main{
     background-color: #d9cec1;
 }
 .eat_img_wrap{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 .eat_img_wrap>img{
+    position:relative;
+    width: 100%;
     border: none;
     border-radius: 10px;
 }
@@ -217,12 +219,23 @@ th,td{
     padding:3% 5%;
     transition: 1s;
 }
+.wordaimg{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin: 30px auto;
+}
 .other_cnt{
     width: 75%;
     margin:30px auto;
     border-radius: 10px;
     padding:3% 5%;
     transition: 1s;
+}
+.other_detail{
+    width: 60%;
+    float: left;
+    margin-left: 2%;
 }
 .dif_cnt{
     width: 75%;
