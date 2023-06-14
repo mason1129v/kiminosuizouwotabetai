@@ -45,3 +45,13 @@ body{
 .navbar .nav-link.active{
     color: white;
 }
+.navbar{
+    transition: 1s;
+}
+.navbar:hover{
+    background-color: #c3baa8;
+}
+footer{
+    width: 100%;
+    height: 60px;
+}

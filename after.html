@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/css/basic.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/color.css">
+    <title>後記</title>
+</head>
+
+<body>
+    <audio id="music" autoplay loop="loop" preload="auto" src="static/music/neko_piano.mp3"></audio>
+    <div>
+        <button id="musicButton" class="music_btn bg_c2 sh_c2" onclick="toggleMute()">
+            <i id="musicIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bgo_c1 fixed-top" aria-label="Offcanvas navbar large">
+            <div class="container-fluid" style="width: 95%;">
+                <a class="navbar-brand display-6 f_c4" href="index.html" id="titlec">我想吃掉你的胰臟</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg_c2" style="width: 60%;" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">索引</h5>
+                        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_home" aria-current="page" href="index.html">首頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_about" href="about.html">選書緣起</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_intro" href="intro.html">故事簡介</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_eat" href="eat.html">吃胰臟？</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_comp" href="comp.html">作品比較</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_exp" href="exp.html">我的心得</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_other" href="other.html">延伸閱讀</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_dif" href="dif.html">他人觀點</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active f_c4" id="n_dif" href="after.html">後記</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f_c4" id="n_ref" href="ref.html">參考資料</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="after_cnt bgo_c3">
+            <p class="h1 fw-bold">後記</p>
+            <p class="h5 txt" style="margin-top:30px;">
+                &emsp;&emsp;雖然迎來了大學三年來最忙的期末，在專題和另一個必修夾擊的狀況下，我還是想盡辦法擠出時間來完成這個網站，我做得很愉快，甚至做這個報告對我反而是一種喘息。
+                <br>&emsp;&emsp;在老師期初提到期末報告時，我腦海中第一本浮現的書就是《我想吃掉你的胰臟》，過往就一直很想為這本書寫一些自己的想法，這次既然有機會那何不把握一下？另外我也很快就決定用網站來呈現這個報告，也幸好期中交出計劃書後，老師對用網頁呈現的這個提案是同意的，真的給了我很大的自由度。
+                <br>&emsp;&emsp;前面提到期末相當忙碌，而我的拖延症也仍舊發作，所以到最後兩週才把小說、真人電影、動畫電影都再重新看一次，並寫下滿滿的筆記，同時也設計網頁排版、打程式碼，最後再放上內容。
+                <br>&emsp;&emsp;這次大多敘述上是使用男主角、女主角而非他們的名字，主要是因為故事中男主角不曾叫過女主角的名字，總用第二人稱代名詞「你」來稱呼女主角，而男主角名字在書中更是幾乎不曾出現，我希望能多少在這個網頁也帶入這樣的氛圍，所以才使用這樣子的表現方式。
+                <br>&emsp;&emsp;雖然是為了作業才製作這個作品，但我認為對我自己也是一個很好的記錄，網站的好處是，或許過一陣子回來再看又有新的想法，也能再更新也說不定。
+                <br>&emsp;&emsp;能順利完成真是太好了。
+                </p>
+                <p class="h5 txt" style="width: 100%; text-align: right;">2023.6.15&emsp;07:10&emsp;吳孟軒&emsp;記</p>
+        </div>
+        <div class="wrap_btn">
+            <a href="dif.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1"><i
+                        class="fa-solid fa-arrow-left"></i>&ensp;回前一頁</button></a>
+            <a href="ref.html"><button class="next_btn bgo_c1 h4 f_kuro sh_c1">繼續閱讀&ensp;<i
+                        class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+    </main>
+    <footer class="bgo_kuro">
+        <p class="h6 f_shiro" style="text-align: center;line-height: 60px;">Copyright © 2023 &ensp;資管三乙&ensp;
+            10944205&ensp; 吳孟軒</p>
+    </footer>
+</body>
+<script src="static/js/changeword.js"></script>
+<script src="static/js/music_ctrl.js"></script>
+
+</html>
